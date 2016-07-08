@@ -22,9 +22,11 @@
         "laravel/laravel": "dev-master"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations",
+        "files": [
             "tests/TestCase.php"
+        ],
+        "classmap": [
+            "src/migrations"
         ],
         "psr-4": {
             "Alnutile\\UniversalComicClient\\": "src/Alnutile/UniversalComicClient"
